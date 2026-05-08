@@ -1,5 +1,5 @@
 ---
-title: The Gaps Between ADHD Research and Classroom Practice
+title: 跨界學人對談：與ADHD孩子同行
 summary: ""
 date: 2026-05-07T10:00:00.000Z
 draft: false
@@ -22,7 +22,7 @@ cover:
   icon:
     name: 🧑‍🏫
 authors:
-  - me
+  - me.zh-hant
 tags:
   - ADHD
 content_meta:

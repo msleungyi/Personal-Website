@@ -63,6 +63,11 @@ education:
     end: "2016"
     summary: ""
 experience:
+  - role: "Guest Researcher"
+    org: "University Hospital, Ludwig-Maximilians-University of Munich"
+    start: "2025"
+    end: "Present"
+    summary: ""
   - role: "Scientific Research Associate"
     org: "University Hospital, Ludwig-Maximilians-University of Munich"
     start: "2021"

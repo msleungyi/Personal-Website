@@ -14,7 +14,7 @@ postnominals:
 status:
   icon: "📖"
 role: "Research Scientist in Psycholinguistics and Metascience"
-bio: "I am a doctoral researcher in psycholinguistics at the Ludwig Maximilian University of Munich, formerly trained and served as a Chinese language teacher in Hong Kong primary and secondary schools. My research revolves around the cognitive mechanisms underlying reading development and the methodology used to identify subtypes of developmental dyslexia. I also build infrastructures based on metascientific principles to help synthesise research findings in psychological sciences. I am committed to bridging the gap between scientific research and the actual practice in the educational and clinical settings. My goal is to translate cross-disciplinary knowledge for researchers, educators, pracitioners, and parents by connecting insights across fields."
+bio: "I am a doctoral researcher in psycholinguistics at the Ludwig Maximilian University of Munich, formerly trained and served as a Chinese language teacher in Hong Kong primary and secondary schools. My research revolves around the cognitive mechanisms underlying reading development and the methodology used to identify subtypes of developmental dyslexia. I also build infrastructures based on metascientific principles to help synthesise research findings in psychological sciences. I am committed to bridging the gap between scientific research and the actual practice in the educational and clinical settings. My goal is to translate cross-disciplinary knowledge for researchers, educators, practitioners, and parents by connecting insights across fields."
 affiliations:
   - name: "Ludwig-Maximilians-University of Munich"
     url: ""
@@ -45,7 +45,7 @@ education:
   - degree: "Dr. in Human Biology"
     institution: "Ludwig-Maximilians-University of Munich"
     start: "2021"
-    end: ""
+    end: "Present"
     summary: ""
   - degree: "M.Sc. in Psychology: Learning Sciences"
     institution: "Ludwig-Maximilians-University of Munich"
@@ -79,7 +79,7 @@ experience:
     end: "2016"
     summary: ""
 skills:
-  - name: "Quantitative Methods & Psychometrics"
+  - name: "Research Methods & Psychometrics"
     items:
       - label: "Structural Equation Modelling (SEM)"
         level: 4
@@ -89,6 +89,8 @@ skills:
         level: 4
       - label: "Item Response Theory (IRT)"
         level: 4
+      - label: "Conceptual Analysis"
+        level: 5
   - name: "Programming & Web Development"
     items:
       - label: "R & Shiny"
@@ -105,12 +107,14 @@ skills:
     items:
       - label: "Language Pedagogies"
         level: 5
-      - label: "Cooperative & Problem-Based- Learning"
+      - label: "Cooperative & Problem-Based-Learning"
+        level: 5
+      - label: "Embedded E-Learning"
         level: 5
       - label: "Instructional Design & Assessment"
         level: 5
       - label: "Action Research"
-        level: 4
+        level: 4      
 languages:
   - name: "English"
     level: 5

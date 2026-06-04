@@ -1,6 +1,5 @@
 ---
-title: "The multiverse of developmental dyslexia subtyping: The “Mapping
-  Dyslexia Subtypes” (MAP-DyS) app for analytical decision-making"
+title: "MAP-DyS: An Interactive Framework for Mapping Analytic Decision Pathways in Subtyping Research"
 authors:
   - me
   - Daniel Kristanto
@@ -15,7 +14,7 @@ author_notes:
   - ""
   - "Shared senior-authorship"
   - "Shared senior-authorship"
-date: 2025-07-23T00:00:00Z
+date: 2026-05-18T00:00:00Z
 hugoblox:
   ids:
     doi: 10.1101/2025.07.23.25332032
@@ -23,7 +22,7 @@ publication_types:
   - preprint
 publication: medRxiv
 publication_short: ""
-abstract: "Biomedical researchers frequently use subtyping methods to classify individuals into subgroups based on shared attributes, aiming to design more precise and targeted interventions and improve treatment effectiveness. However, variations in subtyping methodologies, arising from differences in theoretical frameworks, data preprocessing, and model specifications, can lead to inconsistent subgroup identification. To date, we know little about such variability which may affect the comparability of findings across studies. Our study aims to help researchers systematically review and reflect on the variability in subtyping methods, in order to address this issue. Using developmental dyslexia subtyping as a case study, we systematically reviewed the analytical decisions used in the literature listed in four databases and created a multiverse of dyslexia subtyping methods. We found considerable variability in key decision points, including theoretical models, data preprocessing (e.g., score standardisation), performance indices (e.g., accuracy vs. reaction time), statistical methods (e.g., cluster analysis, quantile classification), and subgroup prevalence. Next, we developed a Shiny app, the “Mapping Dyslexia Subtypes” (MAP-DyS) app, which can be used to visualise and interactively explore the multiverse of subtyping methods, enabling users to understand the variability in methodological choices. By making the analytical variability transparent and navigable, our app supports researchers in critically assessing existing practices and making more informed decisions when designing or interpreting subtyping studies. While focused on developmental dyslexia, the framework has broader applicability to subtyping research in biomedicine."
+abstract: "Subtyping approaches are widely used in psychological and cognitive research to classify individuals into subgroups based on shared behavioural or cognitive characteristics, particularly when addressing heterogeneity in developmental conditions such as developmental dyslexia. However, subtyping analyses involve numerous methodological decisions, including the choice of theoretical models, data preprocessing strategies, performance indices, and statistical techniques. Variability in these analytic decisions can lead to inconsistent subgroup identification and complicate comparisons across studies, yet such methodological variability is rarely systematically mapped. To support transparent examination of analytic decision pathways in subtyping research, we developed MAP-DyS, an open-source interactive Shiny app that enables researchers to explore and compare methodological choices across subtyping studies. To demonstrate the approach, we compiled a corpus of developmental dyslexia subtyping studies identified through a systematic search of four academic databases and extracted key analytic decision points reported in these studies. The resulting dataset illustrates substantial variability in theoretical models, preprocessing procedures, statistical methods, and reported subgroups. MAP-DyS allows users to interactively visualise these decision pathways and examine how different methodological configurations are represented across the literature. By making analytic variability transparent and navigable, the tool supports researchers in critically evaluating existing subtyping practices and designing more transparent and reproducible subtyping studies. Although demonstrated using developmental dyslexia research, the framework is designed to be adaptable to other areas of psychological and behavioural research that employ subtyping or classification approaches."
 links:
   - type: preprint
     url: http://dx.doi.org/10.1101/2025.07.23.25332032

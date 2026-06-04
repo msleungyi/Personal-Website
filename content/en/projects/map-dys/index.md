@@ -97,4 +97,4 @@ This project was co-led by myself and Dr. Daniel Kristanto, funded by the META-R
 For the full methodological details and results, feel free to check out our preprint:
 
 [**Leung, A. Y., Kristanto, D., Gießing, C., Ioannidis, J. P. A., Hildebrandt, A., & Schmalz, X. (2025).**  
-*The multiverse of developmental dyslexia subtyping: The “Mapping Dyslexia Subtypes” (MAP-DyS) app for analytical decision-making.*](https://www.medrxiv.org/content/10.1101/2025.07.23.25332032v1)
+*MAP-DyS: An interactive framework for mapping analytic decision pathways in subtyping research.*](https://www.medrxiv.org/content/10.1101/2025.07.23.25332032v1)

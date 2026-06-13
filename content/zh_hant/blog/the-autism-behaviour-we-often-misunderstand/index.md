@@ -1,7 +1,6 @@
 ---
 title: 老師說：那些容易被誤解的自閉症譜系行為（一）
-summary: A podcast episode in which we discussed the social difficulties and
-  language characteristics of children with autism spectrum disorder (ASD).
+summary: 本集播客探討自閉症譜系障礙的孩子的社交模式及語言特徵。
 date: 2026-06-13T10:00:00.000Z
 draft: false
 image:

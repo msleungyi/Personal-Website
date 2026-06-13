@@ -23,7 +23,7 @@ cover:
   icon:
     name: 🧑‍🏫
 authors:
-  - me.zh-hant
+  - me
 tags:
   - Autism Spectrum Disorder
   - ASD

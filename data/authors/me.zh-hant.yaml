@@ -1,5 +1,5 @@
 schema: "hugoblox/author/v1"
-slug: "me"
+slug: "me.zh-hant"
 is_owner: true
 name:
   display: "梁懿"
@@ -10,7 +10,7 @@ name:
   pronouns: ""
 postnominals:
   - "M.A., M.Sc."
-  - ""
+
 status:
   icon: "📖"
 role: "心理語言學研究員｜前小學教師"
@@ -57,7 +57,7 @@ education:
     start: "2018"
     end: "2019"
     summary: ""
-  - degree: "中文教育學士"
+  - degree: "中文教育（榮譽）學士"
     institution: "香港教育大學"
     start: "2012"
     end: "2016"

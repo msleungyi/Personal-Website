@@ -24,6 +24,7 @@ cover:
 authors:
   - me
 tags:
+  - Podcast
   - ADHD
 content_meta:
   trending: false

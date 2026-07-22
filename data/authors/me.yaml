@@ -14,7 +14,8 @@ postnominals:
 status:
   icon: "📖"
 role: "Research Scientist in Psycholinguistics and Metascience"
-bio: "I am a doctoral researcher in psycholinguistics at the Ludwig-Maximilians-University of Munich, formerly trained and served as a Chinese language teacher in Hong Kong primary and secondary schools. My research revolves around the cognitive mechanisms underlying reading development and the methodology used to identify subtypes of developmental dyslexia. I also build infrastructures based on metascientific principles to help synthesise research findings in psychological sciences. I am committed to bridging the gap between scientific research and the actual practice in the educational and clinical settings. My goal is to translate cross-disciplinary knowledge for researchers, educators, practitioners, and parents by connecting insights across fields."
+bio: "I am a doctoral researcher in psycholinguistics at the Ludwig-Maximilians-University of Munich, formerly trained and served as a Chinese language teacher in Hong Kong primary and secondary schools. My research revolves around the cognitive mechanisms underlying reading development and the methodology used to identify subtypes of developmental dyslexia. I also build infrastructures based on metascientific principles to help synthesise research findings in psychological sciences. I am committed to bridging the gap between scientific research and the actual practice in the educational and clinical settings. My goal is to translate cross-disciplinary knowledge for researchers, educators, practitioners, and parents by connecting insights across fields. I am currently leading the [Re-SearchTerms](../projects/research-terms/)
+  Project at [FORRT](https://forrt.org)."
 affiliations:
   - name: "Ludwig-Maximilians-University of Munich"
     url: ""
@@ -31,58 +32,81 @@ links:
   - icon: "brands/bluesky"
     url: "https://bsky.app/profile/leungyianna.bsky.social"
     label: "Bluesky"
-  - icon: "custom/my-substack"
-    url: "https://annayileung.substack.com/"
-    label: "Substack"
+  - icon: "brands/youtube"
+    url: "https://www.youtube.com/@annayileung"
+    label: "YouTube"
 
 interests:
-  - "Causes and profiling of developmental dyslexia"
-  - "Language disorders"
+  - "Causes and profiles of developmental dyslexia and other language disorders"
   - "Cognition of reading"
   - "Psychological testing"
   - "Metascience"
+  - "Research synthesis methods"
+  - "Translational science"
 education:
   - degree: "Dr. in Human Biology"
     institution: "Ludwig-Maximilians-University of Munich"
     start: "2021"
-    end: "Present"
-    summary: ""
+    end: "Present (Awaiting viva)"
+    summary: "🔹 Thesis: Facilitating Replicability in Dyslexia Research and Beyond: Enhancing Conceptual Clarity and Methodological Rigour in Psychological Science"
   - degree: "M.Sc. in Psychology: Learning Sciences"
     institution: "Ludwig-Maximilians-University of Munich"
     start: "2019"
     end: "2021"
-    summary: ""
+    summary: "🔹 Thesis: Acquisition of Chinese Characters: Necessity and Role of Phonology"
   - degree: "M.A. in Psychology"
     institution: "The Chinese University of Hong Kong"
     start: "2018"
     end: "2019"
-    summary: ""
+    summary: "🔹 Thesis: Subtyping of Chinese Developmental Dyslexia: A Cluster Analysis of Cognitive Profiles"
   - degree: "B.Ed. in Chinese Language"
     institution: "The Education University of Hong Kong"
     start: "2012"
     end: "2016"
-    summary: ""
+    summary: "🔹 Thesis: Phonetic Variation of Hong Kong Cantonese Affricate Consonants"
 experience:
+  - role: "Project Lead, The Re-SearchTerms Project"
+    org: "Framework for Open and Reproducible Research Training (FORRT)"
+    start: "2025"
+    end: "Present"
+    summary: |
+      * 🔹 Designed and lead Re-SearchTerms, an interactive web app and NLP-driven
+        analysis of 3,000+ research term definitions to improve conceptual clarity in open scholarship;
+      * 🔹 Direct the project's development, dataset curation, and collaboration with
+        FORRT's broader open scholarship community
   - role: "Guest Researcher"
     org: "University Hospital, Ludwig-Maximilians-University of Munich"
     start: "2025"
     end: "Present"
-    summary: ""
+    summary: |
+      - 🔹 Continuing collaborative research on developmental dyslexia subtyping and
+      metascience infrastructure following the completion of my doctoral position,
+      including ongoing work on the MAP-DyS and Re-SearchTerms projects.
   - role: "Scientific Research Associate"
     org: "University Hospital, Ludwig-Maximilians-University of Munich"
     start: "2021"
     end: "2025"
-    summary: ""
+    summary: |
+      - 🔹 Conducted research on the cognitive mechanisms underlying reading
+      development and on methods for identifying subtypes of developmental dyslexia;
+      - 🔹 Designed and led Re-SearchTerms, an interactive tool for analysing
+      terminology variation across metascience and psychology;
+      - 🔹 Led a master's-level research seminar on the psychometric evaluation
+      of morphological awareness tasks
   - role: "Full-Time Teacher (Chinese Language & Music)"
     org: "S.K.H. Tin Wan Chi Nam Primary School, Hong Kong"
     start: "2016"
     end: "2018"
-    summary: ""
+    summary: |
+      * 🔹 Taught Chinese language and music to G1 to G6 students with diverse learning needs;
+      * 🔹 Designed and led a student language and cultural exchange programme to Xi'an, China;
+      * 🔹 Founded and led the school's melodica band
   - role: "Freelance Textbook Editor & Intern"
     org: "The Commercial Press (Hong Kong)"
     start: "2015"
     end: "2016"
-    summary: ""
+    summary: |
+      * 🔹 Designed and copy-edited electronic teaching materials and reading comprehension assessments for Hong Kong secondary school Chinese language curriculum
 skills:
   - name: "Research Methods & Psychometrics"
     items:

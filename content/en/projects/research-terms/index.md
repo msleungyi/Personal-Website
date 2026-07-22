@@ -1,194 +1,394 @@
 ---
 title: "Re-SearchTerms: Terminology Variations in Metascience"
-date: 2026-02-13
+date: 2026-07-22
 draft: false
-summary: An interactive Shiny app and NLP-driven analysis of 2,211 definitions
-  to improve conceptual clarity in open scholarship.
+summary: "An interactive, community-driven platform for exploring, comparing, and improving research terminology."
+
 links:
   - icon: 🟢
     icon_pack: fas
-    name: Shiny App
-    url: https://msleungyi.shinyapps.io/Re-SearchTerms_v2/
+    name: App
+    url: https://forrt.org/re-searchterms/
   - type: preprint
     url: https://doi.org/10.31219/osf.io/qsp7x_v2
   - type: dataset
-    url: https://osf.io/vtqgn/
+    url: https://github.com/forrtproject/re-searchterms
   - type: code
-    url: https://osf.io/vtqgn/
+    url: https://github.com/forrtproject/re-searchterms
   - icon: ▶️
     icon_pack: fas
     name: Video Tutorials
     url: https://www.youtube.com/playlist?list=PLSLpkUCilSvrPyKLTgc8KWtMx7tPiiLVp
+
 tags:
   - Research Toolkit
   - Metascience
   - Open Science
   - NLP
   - Reproducibility
+
 # image:
 #   caption: "Image credit: [**Unsplash**](https://unsplash.com)"
+---
+
+## Re-SearchTerms Is Growing
+
+### 🚀 Now recruiting contributors worldwide!
+
+**Originally developed as part of my doctoral research at Ludwig-Maximilians-University of Munich, Re-SearchTerms is now expanding into an international, community-driven research project that I am leading in collaboration with FORRT!**
+
+We are building an open and evolving resource for examining how research concepts are defined, interpreted, and used across disciplines, languages, and research communities.
+
+We are currently welcoming contributors interested in:
+
+- collecting and curating research-term definitions
+- expanding the resource across languages and disciplines
+- annotating and validating existing definitions
+- evaluating the app from an educational perspective
+- testing and developing new app features
+- supporting community development
+- contributing to future presentations and publications
+
+Contributors are welcome at all career stages, including undergraduate and postgraduate students, doctoral and postdoctoral researchers, academic researchers, educators, developers, and independent researchers!
+
+**No programming or advanced statistical experience is required for many of the available tasks.**
+
+➡️ [**Explore the Re-SearchTerms app**](https://forrt.org/re-searchterms/)  
+➡️ [**View the project repository**](https://github.com/forrtproject/re-searchterms)  
+➡️ **Email me about collaborating** at leung.yi.lmu(at)gmail.com
 
 ---
 
 ## What Is Re-SearchTerms?
 
-Have you ever noticed that even when we talk about the same word or the same concept, what each person has in mind might not be exactly the same?
+Have you ever noticed that even when people use the same word or refer to the same concept, they may not have exactly the same meaning in mind?
 
-In scientific research, there are terms we frequently use - for example, "replication", "open science", or "transparency". It might be the case that we assume that many of us share the same understanding. In reality, scientists from different fields, and even those within the same field, do not always define these terms in the same way. Sometimes these differences are merely a matter of word choices, but other times they reflect fundamental variations in how different scholars understand a concept. For readers of academic articles, this can inevitably lead to confusion.
+In scientific research, we frequently use terms such as *replication*, *open science*, and *transparency*. We may assume that other researchers share our understanding of these terms. In reality, researchers from different fields, and even researchers within the same field, do not always define them in the same way.
 
-I remember when I first started my undergraduate studies in Chinese Language Education and was introduced to the concept of "developmental dyslexia". When writing a thesis, defining the core concepts of the topic is a crucial step. Back then, as an undergraduate, the common approach was simply to find the most "authoritative" definition, which usually meant directly quoting from an authoritative dictionary or a scholarly journal from a prestigious university.
+Sometimes, these differences are merely a matter of wording. In other cases, they reflect fundamental differences in how scholars conceptualise a phenomenon. For readers of academic literature, this variation can lead to confusion and make it difficult to compare findings across studies.
 
-However, as I continued my studies, I realised how difficult it is to determine what truly counts as an "authoritative" definition. Definitions of a term often shift across different scholarly domains or evolve over time. This is a natural part of academic growth. When I delved deeper into the definition of "dyslexia", I discovered that scholars from different regions and eras held varying perspectives.
+I first became interested in this problem during my undergraduate studies in Chinese Language Education, when I encountered the concept of *developmental dyslexia*. Defining the central concepts of a thesis is a crucial part of the research process. At the time, the common approach was to identify the most “authoritative” definition, often by quoting an established dictionary or a publication from a prominent scholar or institution.
 
-Having these differences isn't necessarily a bad thing; after all, the essence of scientific research is to encourage a diversity of ideas. It is because we see these inconsistencies in the literature that we are prompted to pause and deeply reflect on what a concept truly means.
+As I continued my studies, however, I realised how difficult it is to determine what truly counts as an authoritative definition. Definitions may differ across disciplines, theoretical traditions, geographical regions, and historical periods. They may also evolve as new evidence and perspectives emerge.
 
-Therefore, as part of my doctoral research, I designed and developed this Shiny app, **Re-SearchTerms**. This Shiny App was created to help everyone pause and examine the definitions of academic terms to see how their language and usage vary across the board.
+When I examined definitions of dyslexia more closely, I found that scholars from different regions and periods often emphasised different characteristics of the condition.
+
+These differences are not necessarily a problem. Scientific research depends on the exchange and development of diverse ideas. Inconsistencies in the literature can encourage us to pause and reflect more carefully on what a concept means, how it is being operationalised, and whether researchers are genuinely studying the same phenomenon.
+
+As part of my doctoral research, I therefore designed and developed **Re-SearchTerms**, an interactive Shiny app that enables users to examine how academic terms are defined and how their wording and usage vary across sources.
 
 ---
 
 ## Why Does This Matter?
 
-Scientific progress depends on shared understanding.  
+Scientific progress depends partly on researchers being able to understand one another.
+
 When terminology varies across fields, researchers may:
 
-- Talk past each other  
-- Refer to different things under the same label, or use different labels to refer to the same thing (also known as the "jingle-jangle fallacies")
-- Draw conclusions that appear contradictory  
-- Struggle to replicate findings  
+- talk past one another
+- use the same label to describe different phenomena
+- use different labels to describe similar phenomena
+- draw conclusions that appear contradictory
+- operationalise the same construct in incompatible ways
+- encounter difficulties when comparing or replicating findings
 
-In interdisciplinary fields especially, inconsistent definitions can slow progress and create confusion. But of course, inconsistent definitions may also reflect areas of knowledge that are under exploration. So, we are not saying that terms should always be defined consistently. The key here is to pause and ask:
+Using the same term for different concepts, or different terms for the same concept, is sometimes described as the **jingle-jangle fallacy**.
 
-> - What do we *really* mean when we use a certain term, especially when we try to define a term in scientific communication?
-> - Are there multiple ways to define a term? If so, why? When? And how?
-> - If we need to define a term in our research, but there are more than one definitions available in the literature, which one should we use? Or is it necessary for us to define the term on our own?
-> - If we want to define a term on our own, or to cite an existing definition proposed in another paper, which wording must be retained in our paraphrasing?
+Terminological inconsistency can be particularly challenging in interdisciplinary research. However, variation in definitions may also indicate that an area of knowledge is still developing or that different theoretical perspectives are being explored.
 
-Many would agree with me that wordings in term definitions are very important. What researchers write in scientific papers are records of knowledge. We accumulate knowledge via documenting it in words. Accuracy has always been very important when conveying scientific knowledge. That is the rationale behind the app's name: the "Re-" in "Re-SearchTerms" means "once more", "think twice"; "re-search" means "search again". "Re-SearchTerms" means "think twice, and search the meanings of research terms again"!
+Re-SearchTerms does not assume that every term must have one universally accepted definition. Instead, the project encourages researchers, students, and educators to pause and ask:
+
+> - What do we mean when we use a particular research term?
+> - Are there multiple ways to define the term?
+> - Why do these definitions differ?
+> - Do the differences reflect disciplinary, theoretical, historical, or linguistic contexts?
+> - Which definition is most appropriate for a particular research question?
+> - Is an existing definition sufficient, or should the researcher provide a new working definition?
+> - Which elements of a definition must be retained when it is paraphrased or operationalised?
+
+The wording of definitions matters because scientific publications are records of knowledge. Researchers accumulate, communicate, and revise knowledge through language. Conceptual precision is therefore central to scientific communication.
+
+This idea is reflected in the name **Re-SearchTerms**:
+
+- **“Re-”** means to reconsider or think again.
+- **“Search”** refers to searching for and comparing meanings.
+- **“Research terms”** are the concepts through which scientific knowledge is communicated.
+
+Re-SearchTerms therefore invites users to **pause, think twice, and search again for the meanings of the terms used in research**.
 
 ---
 
 ## What Does the App Do?
 
-Re-SearchTerms allows users to:
+Re-SearchTerms allows users to explore and compare definitions of research concepts collected from different sources.
 
-### Explore Multiple Definitions  
-Browse definitions of key scientific terms collected from:
-- Academic articles  
-- Glossaries (e.g., open scholarship initiatives)  
-- Reference sources  
+### Explore multiple definitions
 
-### Compare Across Sources  
-See how definitions differ depending on:
-- Discipline  
-- Research tradition  
-- Publication source  
+Users can browse definitions collected from:
 
-### Visualise Conceptual Relationships  
-Using natural language processing (NLP), the app:
-- Maps word co-occurrence patterns  
-- Displays definition similarity networks  
-- Shows how concepts cluster together  
+- academic articles
+- research glossaries
+- open-scholarship initiatives
+- dictionaries and reference sources
 
-This turns abstract terminology into interactive, explorable knowledge.
+### Compare definitions across sources
+
+Users can examine how definitions differ according to:
+
+- academic discipline
+- theoretical or research tradition
+- publication source
+- terminology context
+
+### Visualise conceptual relationships
+
+Using natural language processing and network analysis, the app can:
+
+- map word co-occurrence patterns
+- display semantic-similarity networks
+- show how definitions cluster together
+- reveal relationships among research concepts
+- identify terms with relatively similar or diverse definitions
+
+These features transform abstract terminological differences into interactive and explorable representations.
+
+➡️ [**Launch Re-SearchTerms**](https://forrt.org/re-searchterms/)
 
 ---
 
-## How It Works (In Simple Terms!)
+## How Does It Work?
 
-Re-SearchTerms uses computational text analysis to:
+In simplified terms, Re-SearchTerms uses computational text analysis to:
 
-- Break definitions into meaningful word units  
-- Detect overlap between definitions  
-- Calculate semantic similarity  
-- Build interactive network graphs  
+- divide definitions into meaningful linguistic units
+- identify overlapping words and expressions
+- estimate semantic similarity between definitions
+- construct interactive network visualisations
+- reveal patterns across concepts and sources
 
-You don’t need technical knowledge to use it — the tool is designed to support reflection, not overwhelm users with statistics. But if any colleauges would like to adapt the app for their own use (e.g., compare terms in a specific domain), the codes and datasets have been made available for reproduction.
+Users do not need technical knowledge to explore the app. The platform is designed to support reflection and critical engagement rather than overwhelm users with statistical information.
+
+Researchers and educators who would like to adapt the app to their own disciplines, datasets, or teaching contexts can also access the source code and datasets.
+
+➡️ [**Explore the code and data on GitHub**](https://github.com/forrtproject/re-searchterms)
 
 ---
 
 ## Who Is It For?
 
-Re-SearchTerms is useful for:
+### Students
 
-### Students  
-- Clarify terminology before writing essays or theses  
-- Understand how terms vary across disciplines  
+Re-SearchTerms can help students:
 
-### Researchers  
-- Select definitions deliberately in manuscripts  
-- Identify conceptual inconsistencies  
-- Reflect on measurement alignment (When developing measurements, we need to define the operationalised definition of the target construct. But first, we have to understand the construct's the conceptual meaning.)
+- clarify terminology before writing essays, dissertations, or theses
+- compare definitions from different academic sources
+- understand how concepts vary across disciplines
+- make more deliberate decisions when selecting definitions
 
-### Educators  
-- Teach methodological literacy  
-- Show how scientific language evolves  
-- Foster critical thinking about concepts  
+### Researchers
 
-### Interdisciplinary Teams  
-- Align terminology before collaborative projects  
-- Prevent misunderstandings early
+Researchers can use the platform to:
+
+- compare definitions before preparing manuscripts
+- identify conceptual inconsistencies in the literature
+- examine whether studies use the same labels for different constructs
+- reflect on the alignment between conceptual and operational definitions
+- investigate how terminology develops across research fields
+
+When researchers develop or select a measure, they must define the construct they intend to operationalise. Before deciding how a construct should be measured, they must first understand what the construct is intended to mean.
+
+### Educators
+
+Educators may use Re-SearchTerms to:
+
+- teach research methods and methodological literacy
+- demonstrate how scientific language evolves
+- introduce students to metascience
+- support critical discussion of definitions and constructs
+- encourage careful and transparent scientific writing
+
+### Interdisciplinary teams
+
+Research teams can use the platform to:
+
+- establish shared terminology at the beginning of a project
+- identify differences in disciplinary language
+- reduce misunderstandings among collaborators
+- discuss conceptual assumptions before selecting methods or measures
 
 ---
 
 ## A Metascience Tool
 
-Re-SearchTerms is part of a broader effort in **metascience** — the study of how science works.
+Re-SearchTerms contributes to **metascience**, the study of how science is conducted, communicated, evaluated, and improved.
 
-By improving conceptual clarity, the app contributes to:
+By making terminological variation visible, the app may support:
 
-- Research transparency  
-- Replicability  
-- Better interdisciplinary communication  
-- More thoughtful scientific writing  
+- greater research transparency
+- improved replicability
+- clearer interdisciplinary communication
+- more deliberate construct definition
+- better alignment between concepts and measurements
+- more reflective scientific writing
 
-Complementing the search for consensual and authoritative definitions, Re-SearchTerms encourages reflection and informed choice when seeking conceptual clarity.
+Re-SearchTerms complements the search for consensual or authoritative definitions by encouraging reflection and informed choice.
+
+The purpose is not to prescribe one correct definition for every concept. Instead, the app helps users understand the available definitions, the contexts in which they are used, and the implications of selecting one definition rather than another.
 
 ---
 
 ## Current Scope
 
-The current dataset includes:
+The current dataset contains:
 
-- 2,000+ collected definitions  
-- 200+ scientific concepts  
-- Multiple disciplinary sources  
+- more than 3,000 collected definitions
+- more than 200 scientific concepts
+- definitions from multiple academic and reference sources
+- concepts related to metascience, open science, research methods, statistics, and reproducibility
 
-The platform is designed to grow over time and integrate community contributions.
+The platform is designed to grow over time through additional sources, languages, annotations, and community contributions.
+
+---
+
+## From Doctoral Research to a Community Project
+
+The original version of Re-SearchTerms was developed as part of my doctoral research at Ludwig-Maximilians-University of Munich.
+
+The project initially focused on collecting and analysing English-language definitions from metascience, psychology, open scholarship, and related methodological fields.
+
+**I am now leading the next phase of Re-SearchTerms**, in which the project is being expanded from a doctoral research output into an international and collaborative research platform.
+
+This next phase will involve:
+
+- expanding the database across disciplines
+- collecting definitions in multiple languages
+- introducing community annotation and validation
+- documenting contextual information about definitions
+- evaluating the app as an educational resource
+- developing new analytical and interactive features
+- supporting community-led research questions
+- producing future publications and open educational resources
+
+The long-term vision is to build a living, multilingual, and community-curated infrastructure for conceptual transparency in science.
+
+---
+
+## Join the Project
+
+We are currently recruiting contributors worldwide.
+
+There are several ways to become involved.
+
+### Definition collection and curation
+
+Contributors may:
+
+- identify definitions in academic publications
+- extract and document relevant passages
+- verify publication and source information
+- help expand the database into new research areas
+
+### Annotation and validation
+
+Contributors may:
+
+- check whether an extracted passage genuinely defines a concept
+- assess the contextual accuracy of definitions
+- compare multiple definitions of the same term
+- validate entries submitted by other contributors
+
+### Multilingual development
+
+Multilingual contributors may:
+
+- collect definitions in languages other than English
+- examine how concepts are translated across languages
+- identify terms without direct linguistic equivalents
+- compare disciplinary and cultural differences in terminology
+
+### Pedagogical evaluation
+
+Students and educators may:
+
+- test the app in research-methods or open-science teaching
+- evaluate its clarity and usability
+- provide feedback on educational features
+- help develop teaching activities and learning materials
+
+### Research and dissemination
+
+Contributors may also:
+- participate in future research outputs and publications
+
+You do not need to be an established researcher or scientometrician to take part. Tasks vary in complexity, and many contributions do not require programming or advanced quantitative skills.
+
+### Interested in collaborating?
+
+Please contact me with a brief introduction, including:
+
+1. your academic or professional background
+2. your research field or areas of interest
+3. the languages you work with
+4. the aspect of Re-SearchTerms that interests you
+5. how you might like to contribute
+
+➡️ **Email me about joining the project:** at leung.yi.lmu(at)gmail.com
+➡️ [**Explore the current app**](https://forrt.org/re-searchterms/)  
+➡️ [**Visit the GitHub repository**](https://github.com/forrtproject/re-searchterms)
 
 ---
 
 ## Looking Ahead
 
-Future developments aim to:
+Future developments will focus on:
 
-- Expand disciplinary coverage
-- Support teaching modules  
-- Enable collaborative definition annotation  
+- expanding disciplinary coverage
+- supporting multilingual terminology collections
+- enabling collaborative annotation and validation
+- developing teaching modules
+- evaluating the app in educational settings
+- improving data visualisation and navigation
+- supporting new community-led research
+- integrating human review with AI-assisted workflows
 
-The long-term vision is a living infrastructure for conceptual transparency in science.
+The long-term goal is not simply to maintain a static database. Re-SearchTerms is intended to become a living research infrastructure that grows as new terms, definitions, languages, annotations, and research questions are added.
 
 ---
 
 ## Video Tutorials
 
-[Full Series of Video Tutorials](https://www.youtube.com/playlist?list=PLSLpkUCilSvrPyKLTgc8KWtMx7tPiiLVp)
+[View the full series of video tutorials](https://www.youtube.com/playlist?list=PLSLpkUCilSvrPyKLTgc8KWtMx7tPiiLVp)
 
-This short video tutorial walks you through the key features of Re-SearchTerms:
+This introductory tutorial demonstrates the key features of Re-SearchTerms:
+
 {{< youtube id="_fueLK6ROpw" title="Re-SearchTerms App Overview" >}}
 
 ---
 
-## Try It
+## Try Re-SearchTerms
 
-[Launch the App](/link-to-app)  
-[Explore the Code on OSF](/https://osf.io/vtqgn/)
+➡️ [**Launch the App**](https://forrt.org/re-searchterms/)  
+➡️ [**Explore the Code and Data on GitHub**](https://github.com/forrtproject/re-searchterms)  
+➡️ [**Watch the Video Tutorials**](https://www.youtube.com/playlist?list=PLSLpkUCilSvrPyKLTgc8KWtMx7tPiiLVp)
+
+---
+
+## Publication
+
+The paper associated with the original Re-SearchTerms project has been accepted for publication in *Meta-Psychology*.
+
+You can read the preprint here:
+
+[**Leung, A. Y., Kristanto, D., & Schmalz, X. (2026; in press). Re-SearchTerms: A Shiny App for Exploring Terminology Variations in Psychology and Metascience. Meta-Psychology.**](https://doi.org/10.31219/osf.io/qsp7x_v3)
 
 ---
 
 ## In a Nutshell
 
-Re-SearchTerms helps us slow down, look carefully at the words we use, and build clearer, more transparent research together.
+Re-SearchTerms helps us slow down, examine the words we use, and make more informed decisions about how research concepts are defined and communicated.
 
-The paper relevant to this research is now accepted at *Meta-Psychology*. If you are interested, you may read the preprint version of the paper [here](https://doi.org/10.31219/osf.io/qsp7x_v2).
+What began as part of my doctoral research is now developing into a broader international collaboration. I am currently leading this next phase of the project and welcome contributors interested in terminology, metascience, multilingual expansion, education, data annotation, or scientific communication.
 
-If you are interested in adapting Re-SearchTerms to your own field, dataset, or educational context, I would be delighted to explore potential collaborations. Please feel free to get in touch to discuss how the app could be tailored to your specific needs.
+If you are interested in contributing to Re-SearchTerms or adapting the platform to your own discipline, dataset, language, or educational context, please get in touch!
+
+➡️ **Email me about collaborating at leung.yi.lmu(at)gmail.com**

@@ -28,6 +28,20 @@ sections:
         shape: "circle"
     ue: "section-35c5fc4d"
     Bi: "section-76dcdc52"
+  - block: markdown
+    content:
+      title: "🚀 Re-SearchTerms Is Growing"
+      text: |
+        **Now recruiting contributors worldwide!**
+
+        I am currently leading the expansion of **Re-SearchTerms**, an international community project that grew out of my doctoral research at Ludwig-Maximilians-University of Munich.
+
+        We welcome collaborators interested in multilingual research terminology, data annotation, educational evaluation, software development, and future research publications.
+
+        **[Learn more & join →](../projects/research-terms/)**
+    design:
+      background:
+        color: "#EEF8F0"
   - block: "resume-experience"
     content:
       username: "me"

@@ -18,6 +18,8 @@ sections:
         education: ""
         interests: ""
     design:
+      spacing:
+        padding: ["0", "0", "0", "0"]
       background:
         gradient_mesh:
           enable: true
@@ -25,7 +27,7 @@ sections:
         size: "md"
       avatar:
         size: "medium"
-        shape: "circle"
+        shape: "rounded"
     ue: "section-35c5fc4d"
     Bi: "section-76dcdc52"
   - block: markdown

@@ -18,14 +18,16 @@ sections:
         education: "學歷"
         interests: "研究興趣"
     design:
-      background:
+      spacing:
+        padding: ["0", "0", "0", "0"]
+      background: 
         gradient_mesh:
           enable: true
       name:
         size: "md"
       avatar:
         size: "medium"
-        shape: "circle"
+        shape: "rounded"
     ue: "section-35c5fc4d"
     Bi: "section-76dcdc52"
   - block: "resume-experience"

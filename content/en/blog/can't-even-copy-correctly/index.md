@@ -100,7 +100,7 @@ There's also a developmental argument. Ms. Lam pointed to research suggesting th
 
 ## Do Kids Even Need Handwriting Anymore?
 
-This is the question Ms. Lam says students themselves ask her constantly: "Ms. Lam, we all use tablets now. Why do we still need to practice handwriting?"
+This is the question Ms. Lam says students themselves ask her constantly: "Ms. Lam, we all use tablets now. Why do we still need to practise handwriting?"
 
 Her answer is that handwriting was never really about producing neat output. A printer already does that better, faster, and without mistakes. The actual value of handwriting is in what it trains: the brain's neural networks, yes, but also self-monitoring and self-correction. While writing, a child is constantly checking their own work against the model, building focus and attentiveness in the process. Handwriting also builds something closer to patience, the ability to push through ten vocabulary words even when you want to quit by the fifth. None of this is something an AI tool or tablet can replace.
 

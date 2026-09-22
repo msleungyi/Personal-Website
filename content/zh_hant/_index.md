@@ -12,7 +12,7 @@ sections:
       text: ""
       button:
         text: "下載英文履歷"
-        url: "https://www.annayileung.com/uploads/AYLeung_Academic%20CV_22-9-2026.pdf"
+        url: "https://www.annayileung.com/uploads/AYLeung_Academic_CV.pdf"
       headings:
         about: "個人簡介"
         education: "學歷"

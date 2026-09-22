@@ -12,7 +12,7 @@ sections:
       text: ""
       button:
         text: "Download CV"
-        url: "/uploads/AYLeung_Academic CV_22-9-2026.pdf"
+        url: "/uploads/AYLeung_Academic_CV.pdf"
       headings:
         about: ""
         education: ""

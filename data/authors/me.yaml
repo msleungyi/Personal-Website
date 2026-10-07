@@ -11,12 +11,12 @@ name:
   pronouns: ""
 postnominals:
   - "M.A., M.Sc."
-  - "Doctoral Candidate in Psycholinguistics at LMU Munich"
+  - "Guest Researcher in Psycholinguistics at LMU Munich"
 #status:
   #icon: "📖"
 role: "Research Scientist in Psycholinguistics and Metascience"
 bio: |
-  I am a doctoral researcher in psycholinguistics at the Ludwig-Maximilians-University of Munich, formerly trained and served as a Chinese language teacher in Hong Kong primary and secondary schools. My research revolves around the cognitive mechanisms underlying reading development and the methodology used to identify subtypes of developmental dyslexia. I also build infrastructures based on metascientific principles to help synthesise research findings in psychological sciences. I am committed to bridging the gap between scientific research and the actual practice in the educational and clinical settings. My goal is to translate cross-disciplinary knowledge for researchers, educators, practitioners, and parents by connecting insights across fields. I am currently leading the [Re-SearchTerms](../projects/research-terms/) Project at [FORRT](https://forrt.org).
+  I am a researcher in psycholinguistics at the Ludwig-Maximilians-University of Munich, formerly trained and served as a Chinese language teacher in Hong Kong primary and secondary schools. My research revolves around the cognitive mechanisms underlying reading development and the methodology used to identify subtypes of developmental dyslexia. I also build infrastructures based on metascientific principles to help synthesise research findings in psychological sciences. I am committed to bridging the gap between scientific research and the actual practice in the educational and clinical settings. My goal is to translate cross-disciplinary knowledge for researchers, educators, practitioners, and parents by connecting insights across fields. I am currently leading the [Re-SearchTerms](../projects/research-terms/) Project at [FORRT](https://forrt.org).
 
   🌐 This website is bilingual (English / [繁體中文](../zh-hant/)). Use the language switcher in the navigation bar to browse in your preferred language.
 
@@ -51,7 +51,7 @@ education:
   - degree: "Ph.D. (Dr. rer. hum. biol.) in Psycholinguistics"
     institution: "Ludwig-Maximilians-University of Munich"
     start: "2021"
-    end: "Present (Expected Oct 2026)"
+    end: "2026 (Viva passed; degree conferral pending)"
     summary: "🔹 Thesis: Facilitating Replicability in Dyslexia Research and Beyond: Enhancing Conceptual Clarity and Methodological Rigour in Psychological Science"
   - degree: "M.Sc. in Psychology: Learning Sciences"
     institution: "Ludwig-Maximilians-University of Munich"
@@ -83,9 +83,8 @@ experience:
     start: "2025"
     end: "Present"
     summary: |
-      - 🔹 Continuing collaborative research on developmental dyslexia subtyping and
-      metascience infrastructure following the completion of my doctoral position,
-      including ongoing work on the MAP-DyS and Re-SearchTerms projects.
+      - 🔹 Collaborative research on developmental dyslexia subtyping and
+      metascience infrastructure, including ongoing work on the MAP-DyS and Re-SearchTerms projects.
   - role: "Scientific Research Associate"
     org: "University Hospital, Ludwig-Maximilians-University of Munich"
     start: "2021"

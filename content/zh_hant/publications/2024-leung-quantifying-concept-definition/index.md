@@ -13,7 +13,7 @@ publication_types:
   - preprint
 publication: OSF Preprints
 publication_short: ""
-abstract: '<p>Academic texts often define a given concept using words. Across
+abstract: 'Academic texts often define a given concept using words. Across
   texts, definitions may represent the same or different meanings of the given
   concept, especially for concepts in interdisciplinary fields, such as
   cognitive science. Understanding the variability of definitions and the
@@ -33,7 +33,7 @@ abstract: '<p>Academic texts often define a given concept using words. Across
   inconsistent understanding of concepts’ meaning across contexts (high on the
   entropy-based measures). The proposed methodology can help identify concepts
   that yield heterogeneous definitions in academic texts and concepts that are
-  consistently defined in a semi-automated manner.</p>'
+  consistently defined in a semi-automated manner.'
 links:
   - type: preprint
     url: http://dx.doi.org/10.31219/osf.io/gu7b5
